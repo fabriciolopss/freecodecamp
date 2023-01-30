@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id = "navbar">
+        <header>
+            <h1>Python Technical Documentation</h1>
+        </header>
+        <ul>
+            <li><a class = "nav-link" href="#Introduction_to_python">Introduction to python</a></li>
+            <li><a class = "nav-link" href="#Variables_and_Data_Types">Variables and Data Types</a></li>
+            <li><a class = "nav-link" href="#Operators_and_Expressions">Operators and Expressions</a></li>
+            <li><a class = "nav-link" href="#Control_Structures">Control Structures</a></li>
+            <li><a class = "nav-link" href="#Functions">Functions</a></li>
+            <li><a class = "nav-link" href="#Strings">Strings</a></li>
+            <li><a class = "nav-link" href="#Lists">Lists</a></li>
+            <li><a class = "nav-link" href="#Dictionaries">Dictionaries</a></li>
+            <li><a class = "nav-link" href="#Tuples">Tuples</a></li>
+            <li><a class = "nav-link" href="#Sets">Sets</a></li>
+            <li><a class = "nav-link" href="#File_I/O">File I/O</a></li>
+            <li><a class = "nav-link" href="#Exception_Handling">Exception Handling</a></li>
+            <li><a class = "nav-link" href="#Modules_and_Packages">Modules and Packages</a></li>
+            <li><a class = "nav-link" href="#Conclusion">Conclusion</a></li>
+        </ul>
+    </nav>
+
+    <main id = "main-doc">
+
+        <section class="main-section" id = "Introduction_to_python" >
+        <header>Introduction to python</header>
+        <p>Python is a popular, high-level programming language used for a wide range of applications. Its simple and easy-to-learn syntax makes it a popular choice for beginners and experts alike.</p>
+
+        <p>Python was first released in 1991 and has since grown to become one of the most widely used programming languages in the world.</p>
+
+        <p>Python's key features include dynamic typing, garbage collection, and extensive standard libraries.
+        Python is used for web development, scientific computing, data analysis, artificial intelligence, and more.</p>
+        To start using Python, you'll need to set up a Python environment on your computer, which can be done by installing a Python interpreter.
+        </section>
+
+        <section class = "main-section" id = "Variables_and_Data_Types">
+        <header>Variables and Data Types</header>
+        <p>In Python, variables are named storage locations used to store values. Variable names follow certain naming conventions and should be descriptive.
+            Python has several built-in data types, including numbers, strings, and collections like lists and dictionaries.
+            In Python, type conversion is automatic and can be performed using type conversion functions like int(), float(), and str().
+            Python is a dynamically typed language, meaning that the type of a variable can change during the execution of the program.
+        </p>
+        </section>
+
+        <section class = "main-section" id = "Operators_and_Expressions">
+            <header>Operators and Expressions</header>
+            <p>Python has several types of operators, including arithmetic, comparison, logical, assignment, and more.
+                Expressions in Python are constructed using these operators and can be used to perform operations like addition, comparison, and logical evaluations.
+                In Python, short-circuit evaluation is used to optimize the evaluation of logical expressions.
+            </p>
+        </section>
+
+        <section class = "main-section" id = "Control_Structures">
+            <header>Control Structures</header>
+            <p>
+                Python has several control structures, including if-else statements, for loops, while loops, and more, that allow you to control the flow of execution of your program.
+The break and continue statements are used to prematurely exit a loop or skip to the next iteration, respectively.
+The pass statement is a placeholder statement used when a statement is required syntactically, but you don't want any code to be executed.
+            </p>
+        </section>
+
+        <section class = "main-section" id = "Functions">
+            <header>Functions</header>
+            <p>
+                Functions in Python are used to encapsulate reusable code and improve modularity.
+Functions are defined using the def keyword and can accept arguments and return values.
+The scope of a variable in Python refers to the region of the program where it is accessible. Variables defined inside a function have local scope and cannot be accessed outside the function.
+Recursive functions are functions that call themselves, and are used to solve problems where the solution can be expressed in terms of a smaller version of the same problem.
+Anonymous functions, also known as lambda functions, are one-line functions that can be defined without a name and are often used as arguments to other functions.
+            </p>
+
+            <code>
+                def function_name(<br>
+                    parameter_1, <br>
+                    parameter_2, <br>
+                      . <br>
+                      . <br>
+                      . <br>
+                    parameter_n <br>
+                ): <br>
+                    # function body <br>
+                    return value <br>
+            </code>
+        </section>
+
+        <section class = "main-section" id = "Strings">
+            <header>Strings</header>
+            <p>
+                Strings in Python are sequences of characters and are defined using quotes.
+String indexing and slicing can be used to access specific characters or substrings within a string.
+Python has several built-in methods for manipulating strings, such as concatenation, repetition, and more.
+String formatting is a way to dynamically create strings using placeholders and variables.
+String comparison can be performed using comparison operators and is case-sensitive by default.
+            </p>
+
+            <code>
+                s = "string" <br>
+                s = 'string' <br>
+                s = '''string''' <br>
+                s = """string""" <br>
+            </code>
+        </section>
+        <section class = "main-section" id = "Lists">
+            <header>Lists</header>
+            <p>
+                Lists in Python are ordered collections of elements and can contain elements of different data types.
+List indexing and slicing can be used to access specific elements or sublists within a list.
+Python has several built-in methods for manipulating lists, such as addition, multiplication, sorting, and more.
+
+Lists can be nested to create more complex data structures.
+List comprehensions are a concise way to create lists based on existing lists or other data structures.
+            </p>
+
+            <code>
+                l = [ <br>
+                    element, <br>
+                    element, <br>
+                      . <br>
+                      . <br>
+                      . <br>
+                    element <br>
+                ]
+            </code>
+        </section>
+
+        <section class = "main-section" id = "Dictionaries">
+            <header>Dictionaries</header>
+            <p>
+                Dictionaries in Python are unordered collections of key-value pairs and are defined using curly braces {}.
+The keys in a dictionary are used to access their corresponding values.
+Python has several built-in methods for manipulating dictionaries, such as adding, removing, and updating key-value pairs.
+Dictionaries can be nested to create more complex data structures.
+            </p>
+
+            <code>d = {
+                key: value, <br>
+                key: value, <br>
+                  . <br>
+                  . <br>
+                  . <br>
+                key: value
+            }</code>
+        </section>
+
+        <section class = "main-section" id = "Tuples">
+            <header>Tuples</header>
+            <p>
+                Tuples in Python are ordered collections of elements and can contain elements of different data types.
+Tuples are similar to lists, but are immutable, meaning that their elements cannot be changed once they are created.
+Tuples are often used to return multiple values from a function or to pass multiple values to a function as arguments.
+            </p>
+
+            <code>
+                t = ( <br>
+                    element, <br>
+                    element, <br>
+                      . <br>
+                      . <br>
+                      . <br>
+                    element <br>
+                )
+            </code>
+        </section>
+
+        <section class = "main-section" id = "Sets">
+            <header>Sets</header>
+            <p>
+                Sets in Python are unordered collections of unique elements and are defined using curly braces {}.
+Python has several built-in methods for manipulating sets, such as union, intersection, difference, and more.
+Sets can be used to perform mathematical set operations, such as union, intersection, and difference.
+            </p>
+        </section>
+
+        <section class = "main-section" id = "File_I/O">
+            <header>File I/O</header>
+            <p>
+                File I/O in Python allows you to read from and write to files on disk.
+Python provides several built-in functions for reading from and writing to files, such as open(), read(), and write().
+The with statement is used to automatically close files, even if an exception is raised during file processing.
+            </p>
+        </section>
+
+        <section class = "main-section" id = "Exception_Handling">
+            <header>Exception Handling</header>
+            <p>
+                Exception handling in Python is used to handle errors and exceptions that occur during the execution of a program.
+The try-except statement is used to catch exceptions and execute appropriate code when an exception is raised.
+The raise statement is used to raise an exception explicitly.
+The finally block is executed regardless of whether an exception is raised or not and is used to perform cleanup tasks.
+            </p>
+        </section>
+
+        <section class = "main-section" id = "Modules_and_Packages">
+            <header>Modules and Packages</header>
+            <p>
+                Modules in Python are collections of functions, classes, and other definitions that can be reused across multiple programs.
+Modules can be imported into a program using the import statement.
+Packages are collections of modules that provide a higher-level organization of code and can be imported using the import statement.
+The init.py file is used to define the contents of a package. Examples of Python modules:
+
+            </p>
+
+            <ul>
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>Selenium</li>
+                <li>Tensor Flow</li>
+                <li>Matplotlib</li>
+                <li>Scikit-learn</li>
+            </ul>
+
+        </section>
+
+        <section class = "main-section" id = "Conclusion">
+            <header>Conclusion</header>
+            <p>
+                Python is a high-level, dynamically typed programming language that is used for a wide range of applications, from web development to data science and beyond.
+                In this technical documentation page, we have covered the basics of Python, including its syntax, data types, control structures, functions, and more.
+                Python is a powerful and versatile language, and by understanding its core concepts, you will be well on your way to becoming a proficient Python programmer.
+                We encourage you to continue exploring Python by reading more technical documentation, trying out examples, and writing your own programs. The Python community is vast and supportive, and there are many resources available to help you along the way.
+            </p>
+        </section>
+    </main>
+</body>
+</html>
